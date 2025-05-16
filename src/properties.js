@@ -38,8 +38,8 @@ var tagCloudOptions = [{
     title: 'Authors',
     minTagFrequency: 1
 }, {
-    field: 'series',
-    title: 'Series',
+    field: 'journal',
+    title: 'Journals',
     minTagFrequency: 1
 }];
 
@@ -47,7 +47,7 @@ var tagCloudOptions = [{
  * If BibTeX entries (and tags) should be editable
  * @type {boolean}
  */
-var editable = true;
+var editable = false;
 
 /**
  * Subtitle describing the paper the data is referring to (set to null to deactivate)
@@ -55,14 +55,14 @@ var editable = true;
  */
 var paper = {
     html: 'The Therapeutic Potential of Conversational Agents: Efficacy, Safety, and Implementation Challenges by <b><a href="https://obedjohnson.com" target="_blank">Obed Johnson</a></b>',
-    id: 'Beck2016Visual'
+    id: 'Vaidyam2019Chatbots'
 };
 
 /**
  * Extra pages like an about page that will be listed in the footer an can be opened on demand (page name -> path)
  */
 var extraPages = {
-    'about': 'about.html'
+   // 'about': 'about.html'
 };
 
 /**
@@ -81,4 +81,4 @@ var customStyle = '';
 /* var citations = {
     minCitationCount: 5
 }; */
-var citations = null;
+var citations = 1;
